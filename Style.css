@@ -1,0 +1,58 @@
+body
+{
+    background-color: rgb(106, 198, 198);
+}
+button
+{
+    border: 0px;
+    border-radius: 5rem;
+    background-color: rgb(66, 188, 139);
+    transition: transform 1s;
+}
+button:hover
+{
+    transform: scale(1.1);
+    background-color: rgb(4, 206, 126);
+}
+#container
+{
+    background-color: white;
+    width: 50rem;
+    height: 25rem;
+    margin-top: 5rem;
+}
+#array
+{
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+#number
+{
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+#save,#check
+{
+    margin-left: 0.5rem;
+}
+#searchInput
+{
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+#searchButton
+{
+    margin-left: 0.5rem;
+}
